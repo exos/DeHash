@@ -1,0 +1,14 @@
+{ "name" : "dehash"
+, "description" : "Search hashes in varoius servers"
+, "tags" : ["hash","md5","sha1"]
+, "version" : "0.1.0"
+, "author" : "Oscar Gentileza, aka exos <tioscar@gmail.com>"
+, "repository" :
+  { "type" : "git"
+  , "url" : ""
+  }
+, "bugs" :
+  { "url" : "" }
+, "engines" : ["node >= 0.3.6"]
+, "dependencies": ["request >= 2.9.153"]
+}
