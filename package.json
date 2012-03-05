@@ -5,10 +5,10 @@
 , "author" : "Oscar Gentileza, aka exos <tioscar@gmail.com>"
 , "repository" :
   { "type" : "git"
-  , "url" : ""
+  , "url" : "git@github.com:exos/DeHash.git"
   }
 , "bugs" :
-  { "url" : "" }
+  { "url" : "https://github.com/exos/DeHash/issues" }
 , "engines" : ["node >= 0.3.6"]
 , "dependencies": ["request >= 2.9.153"]
 }
