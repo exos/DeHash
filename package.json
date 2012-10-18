@@ -1,7 +1,7 @@
 { "name" : "dehash"
-, "description" : "Search hashes in varoius servers"
+, "description" : "Search hashes on several sites"
 , "tags" : ["hash","md5","sha1"]
-, "version" : "0.1.0"
+, "version" : "0.1.1"
 , "author" : "Oscar Gentileza, aka exos <tioscar@gmail.com>"
 , "repository" :
   { "type" : "git"

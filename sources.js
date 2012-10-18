@@ -23,12 +23,12 @@ module.exports = {
 
 	'md5crack.com': {
 		method: 'post',
-		url: 'http://md5crack.com/crackmd5.php',
+		url: 'http://www.md5crack.com/crackmd5.php',
 		params: {
-			crackbtn: 'Crack that hash baby!',
-			term: '{hash}'
+      crackbtn:  'Crack that hash baby!',
+      term:    '{hash}'
 		},
-		regexp: 'Found: [a-f0-9]+ = [a-z0-9]+\\("(.*)"\\)'
+    regexp: 'Found: md5\("(.*)"\) ='
 	},
 
 	'md5decryption.com': {
@@ -101,4 +101,16 @@ module.exports = {
 		regexp: 'Password - <b>(.*)</b> '
 	},
 	
+	'www.authsecu.com': {
+		method: 'post',
+		url: 'http://www.authsecu.com/decrypter-dechiffrer-cracker-hash-md5/script-hash-md5.php',
+		params: {
+      champ2:          '{hash}',
+      'dechiffrer.x':    '55',
+      'dechiffrer.y':    '11',
+      valeur_bouton:   'dechiffrage'
+		},
+		regexp: '<p class="chapitre---texte-du-tableau-de-niveau-1">(.*)<\/p>'
+	}
+
 };

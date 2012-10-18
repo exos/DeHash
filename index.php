@@ -1,3 +1,6 @@
 
-module.exports =  require('./lib/ddehash');
+module.exports = {
+    dehash: require('./lib/ddehash'),
+    sources: require('./sources.js')
+}
 
